@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Classes", "Classes\Classes.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pointers", "Pointers\Pointers.vcxproj", "{714C1664-A4CE-48DF-BB29-3D5E47ADF371}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Inheritence", "Inheritence\Inheritence.vcxproj", "{37AFE99F-BEC7-480C-BCBD-204112156558}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{714C1664-A4CE-48DF-BB29-3D5E47ADF371}.Release|x64.Build.0 = Release|x64
 		{714C1664-A4CE-48DF-BB29-3D5E47ADF371}.Release|x86.ActiveCfg = Release|Win32
 		{714C1664-A4CE-48DF-BB29-3D5E47ADF371}.Release|x86.Build.0 = Release|Win32
+		{37AFE99F-BEC7-480C-BCBD-204112156558}.Debug|x64.ActiveCfg = Debug|x64
+		{37AFE99F-BEC7-480C-BCBD-204112156558}.Debug|x64.Build.0 = Debug|x64
+		{37AFE99F-BEC7-480C-BCBD-204112156558}.Debug|x86.ActiveCfg = Debug|Win32
+		{37AFE99F-BEC7-480C-BCBD-204112156558}.Debug|x86.Build.0 = Debug|Win32
+		{37AFE99F-BEC7-480C-BCBD-204112156558}.Release|x64.ActiveCfg = Release|x64
+		{37AFE99F-BEC7-480C-BCBD-204112156558}.Release|x64.Build.0 = Release|x64
+		{37AFE99F-BEC7-480C-BCBD-204112156558}.Release|x86.ActiveCfg = Release|Win32
+		{37AFE99F-BEC7-480C-BCBD-204112156558}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
