@@ -12,8 +12,8 @@ int main() {
 
 	D *d = new D();
 	E *e = new E();
-
 	IC* arr[2];
+
 	arr[0] = d;
 	arr[1] = e;
 	arr[0]->OverrideMe();

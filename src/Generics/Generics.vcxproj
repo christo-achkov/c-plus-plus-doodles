@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{37afe99f-bec7-480c-bcbd-204112156558}</ProjectGuid>
-    <RootNamespace>Inheritence</RootNamespace>
+    <ProjectGuid>{a1106f6a-c9e2-48a1-85cb-87d029e564ce}</ProjectGuid>
+    <RootNamespace>Generics</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,14 +139,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="A.h" />
-    <ClInclude Include="B.h" />
-    <ClInclude Include="D.h" />
-    <ClInclude Include="E.h" />
-    <ClInclude Include="IC.h" />
+    <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Main.cpp" />
+    <ClInclude Include="Array.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
